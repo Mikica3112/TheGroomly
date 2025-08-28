@@ -6,3 +6,4 @@
 2025-08-27 09:05:00 +0200 - Tests: medium GroomerDao (+flow)
 2025-08-27 18:15:00 +0200 - E2E: booking flow happy path
 2025-08-28 10:00:00 +0200 - Fix: time/date picker handling
+2025-08-28 15:40:00 +0200 - Polish: copy, small refactors
