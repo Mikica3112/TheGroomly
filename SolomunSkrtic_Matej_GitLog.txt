@@ -1,0 +1,2 @@
+﻿* a466b40 Thu Aug 28 11:53:47 2025 | Remove stray gitignore (use .gitignore)  (HEAD -> master) [Matej Solomun ┼ákrti─ç]
+* ab12da2 Thu Aug 28 11:49:10 2025 | Initial commit ÔÇô uvoz postoje─çeg Android projekta  [Matej Solomun ┼ákrti─ç]
