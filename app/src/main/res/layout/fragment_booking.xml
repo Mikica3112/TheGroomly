@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp">
+
+        <!-- LOADING / EMPTY poruke -->
+        <TextView
+            android:id="@+id/tvLoading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Učitavanje salona..."
+            android:visibility="gone"
+            android:paddingVertical="8dp" />
+
+        <TextView
+            android:id="@+id/tvEmpty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nema rezervacija."
+            android:visibility="gone"
+            android:paddingVertical="8dp" />
+
+        <!-- Salon -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salon"
+            android:textStyle="bold"
+            android:paddingTop="30dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spinnerGroomer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+        <!-- Vrsta psa -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vrsta psa"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spDogType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+        <!-- Tretman -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tretman"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spTreatment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+        <!-- Datum i vrijeme -->
+        <Button
+            android:id="@+id/btnPickDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Odaberi datum i vrijeme"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/tvDateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="—"
+            android:paddingTop="6dp" />
+
+        <!-- Napomena -->
+        <EditText
+            android:id="@+id/etNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Napomena (opcionalno)"
+            android:layout_marginTop="12dp" />
+
+        <!-- Rezerviraj -->
+        <Button
+            android:id="@+id/btnReserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rezerviraj"
+            android:layout_marginTop="16dp" />
+
+        <!-- Popis rezervacija -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvReservations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

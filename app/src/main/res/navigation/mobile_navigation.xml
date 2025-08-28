@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.thegroomly.ui.home.HomeFragment"
+        android:label="Početna" />
+
+    <fragment
+        android:id="@+id/nav_booking"
+        android:name="com.example.thegroomly.BookingFragment"
+        android:label="Rezervacije" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.thegroomly.SettingsFragment"
+        android:label="Postavke" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.thegroomly.ui.profile.ProfileFragment"
+        android:label="Moj profil" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.thegroomly.ui.history.HistoryFragment"
+        android:label="History" />
+
+</navigation>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TheGroomly</string>
+    <string name="menu_home">Početna</string>
+    <string name="menu_booking">Rezervacija</string>
+    <string name="menu_settings">Postavke</string>
+    <string name="action_settings">Postavke</string>
+    <string name="menu_gallery">Galerija</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="no_favorites_yet">Još nema favorita</string>
+    <string name="no_reservations_yet">Još nema rezervacija</string>
+
+    <string name="label_full_name">Ime i prezime</string>
+    <string name="label_email">Email</string>
+    <string name="label_phone">Telefon</string>
+    <string name="label_address">Adresa</string>
+    <string name="action_save">Spremi</string>
+    <string name="profile_image_desc">Profilna slika</string>
+
+</resources>
